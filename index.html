@@ -1,152 +1,110 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>M. Fari's Portofolio</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat|Lobster"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style2.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Resume Fari</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-
-      <link rel="stylesheet" href="css/style.css">
-
-
-</head>
-
-<body>
-
-  <div class="resume">
-  <div class="base">
-    <div class="profile">
-      <div class="photo">
-        <!--<img src="" /> -->
-        <i class="fas fa-rocket"></i>
+  <body>
+    <div id="app">
+      <header class="headerTransparent">
+        <div class="container"></div>
+      </header>
+      <div id="jumbo"></div>
+      <div id="about" class="about">
+        <div class="container">
+          <div class="col-xs-12 col-sm-5 imgContainer"></div>
+          <div class="col-xs-12 col-sm-7 aboutText"></div>
+        </div>
       </div>
-      <div class="info">
-        <h1 class="name">Muhammad Fari Madyan</h1>
-        <h2 class="job">Web Developer</h2>
+      <div id="projects" class="portfolio">
+        <div class="container">
+          <div class="row projTitleRow">
+            <div class="col-xs-12">
+              <h1 style="text-align: center">Projects</h1>
+              <hr />
+            </div>
+          </div>
+          <div class="row projectsRow"></div>
+        </div>
       </div>
-    </div>
-    <div class="about">
-      <h3>About Me</h3>I'm a Web Developer, specializing in fullstack javascript, laravel, and react native. Experienced with the Collaboration Team Developer for web front end & back end.
-    </div>
-    <div class="contact">
-      <h3>Contact Me</h3>
-      <div class="call"><a href="tel:123-456-7890"><i class="fas fa-phone"></i><span>0812 1586 9294</span></a></div>
-      <div class="address"><a href="https://goo.gl/maps/fiTBGT6Vnhy"><i class="fas fa-map-marker"></i><span>Bandar Lampung</span></a>
+      <div id="contact" class="contact">
+        <div class="container">
+          <h1>Contact me</h1>
+          <form
+            id="contact-form"
+            action="//formspree.io/fari.msenju@gmail.com"
+            method="post"
+          >
+            <div class="col-sm-6">
+              <div id="nameDiv" class="col-xs-12 col-sm-12">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div id="emailDiv" class="col-xs-12 col-sm-12">
+                <input
+                  type="email"
+                  name="_replyto"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+            </div>
+            <div id="messageDiv" class="col-xs-12 col-sm-6">
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <input type="text" name="_gotcha" style="display:none" />
+            <button type="submit" value="send">
+              <i class="fa fa-envelope" aria-hidden="true"></i> Send
+            </button>
+          </form>
+        </div>
       </div>
-      <div class="email"><a href="mailto:fari.msenju@gmail.com"><i class="fas fa-envelope"></i><span>fari.msenju</span></a></div>
-      <div class="website"><a href="https://medium.com/@farimadyan" target="_blank"> <i class="fas fa-home"></i><span>farimfmf.com</span></a></div>
-    </div>
-    <div class="follow">
-      <h3>Follow Me</h3>
-      <div class="box">
-        <a href="https://www.facebook.com/fari.madyan/" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/farimadyan/" target="_blank"><i class="fab fa-instagram "></i></a>
-        <a href="https://www.pinterest.com/fari_msenju/" target="_blank"><i class="fab fa-pinterest"></i></a>
-        <a href="https://www.linkedin.com/in/muhammad-fari-madyan-24b998126/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://codepen.io/muhammadfarimadyan/" target="_blank"><i class="fab fa-codepen"></i></a>
-        <a href="https://www.behance.net/farimsenju2777" target="_blank"><i class="fab fa-behance"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="func">
-    <div class="work">
-      <h3><i class="fa fa-briefcase"></i>Experience</h3>
-      <ul>
-        <li><span>Instruktur Programming<br>Fullstack JavaScript</span><small>Andaglos Developer Academy</small><small>Okt. 2018 - Now</small></li>
-        <li><span>Front End Web Developer</span><small>Karya Muda Usaha</small><small>Mei. 2018 - Aug. 2018</small></li>
-        <li><span>Freelance Programmer</span><small>Work at Home</small><small>Okt. 2017 - Mei. 2018</small></li>
-      </ul>
-    </div>
-    <div class="edu">
-      <h3><i class="fa fa-graduation-cap"></i>Education</h3>
-      <ul>
-        <li><span>Bachelor of Informatics<br>Teknik Informatika</span><small>Universitas Teknokrat Indonesia</small><small>July. 2013 - Okt. 2016</small></li>
-        <li><span>Teknik Audio Video</span><small>SMKN 2 Bandar Lampung</small><small>Jan. 2010 - Apr. 2013</small></li>
-        <li><span>Junior High School</span><small>SMPN 28 Bandar Lampung</small><small>Jan. 2013 - Des. 2010</small></li>
-      </ul>
-    </div>
-    <div class="skills-prog">
-      <h3><i class="fas fa-code"></i>Programming Skills</h3>
-      <ul>
-        <li data-percent="65"><span>HTML5</span>
-          <div class="skills-bar">
-            <div class="bar"></div>
-          </div>
-        </li>
-        <li data-percent="65"><span>CSS</span>
-          <div class="skills-bar">
-            <div class="bar"></div>
-          </div>
-        </li>
-        <li data-percent="70"><span>JavaScript</span>
-          <div class="skills-bar">
-            <div class="bar"></div>
-          </div>
-        </li>
-        <li data-percent="60"><span>PHP</span>
-          <div class="skills-bar">
-            <div class="bar"></div>
-          </div>
-        </li>
-        <li data-percent="70"><span>MySQL</span>
-          <div class="skills-bar">
-            <div class="bar"></div>
-          </div>
-        </li>
-        <li data-percent="60"><span>React JS</span>
-          <div class="skills-bar">
-            <div class="bar"></div>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="skills-soft">
-      <h3><i class="fas fa-bezier-curve"></i>Frameworks Skills</h3>
-      <ul>
-        <li data-percent="75">
-          <svg viewbox="0 0 100 100">
-            <circle cx="50" cy="50" r="45"></circle>
-            <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>Laravel</span><small></small>
-        </li>
-        <li data-percent="70">
-          <svg viewbox="0 0 100 100">
-            <circle cx="50" cy="50" r="45"></circle>
-            <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>Express JS</span><small></small>
-        </li>
-        <li data-percent="55">
-          <svg viewbox="0 0 100 100">
-            <circle cx="50" cy="50" r="45"></circle>
-            <circle class="cbar" cx="50" cy="50" r="45"></circle>
-          </svg><span>React Native</span><small></small>
-        </li>
-      </ul>
-    </div>
-    <div class="interests">
-      <h3><i class="fas fa-star"></i>Interests</h3>
-      <div class="interests-items">
-        <div class="art"><i class="fas fa-palette"></i><span>Art</span></div>
-        <div class="art"><i class="fas fa-book"></i><span>Books</span></div>
-        <div class="movies"><i class="fas fa-film"></i><span>Movies</span></div>
-        <div class="music"><i class="fas fa-headphones"></i><span>Music</span></div>
-        <div class="games"><i class="fas fa-gamepad"></i><span>Games</span></div>
+      <div id="footer" class="footer">
+        <div class="copyright"></div>
+        <div class="socialIcons"></div>
       </div>
     </div>
-  </div>
-</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
-
-
-
-    <script  src="js/index.js"></script>
-
-
-
-
-</body>
-
+    <!-- JAVASCRIPT -->
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/data.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/formspree.js"></script>
+  </body>
 </html>
