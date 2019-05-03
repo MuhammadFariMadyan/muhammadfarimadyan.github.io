@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/louisiaegerv/portfolio.git"
+    "url": "git+https://github.com/MuhammadFariMadyan/muhammadfarimadyan.github.io/portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/louisiaegerv/portfolio/issues"
+    "url": "https://github.com/MuhammadFariMadyan/muhammadfarimadyan.github.io/issues"
   },
-  "homepage": "https://github.com/louisiaegerv/portfolio#readme",
+  "homepage": "https://github.com/MuhammadFariMadyan/muhammadfarimadyan.github.io/portfolio#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
