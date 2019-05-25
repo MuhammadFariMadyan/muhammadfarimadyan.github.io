@@ -63,7 +63,7 @@ const data = {
         title: `CRUD Siswa Express.js`,
         description: `CRUD Siswa`,
         img: `img/crud-siswa-express.png`,
-        link: `https://serene-retreat-20772.herokuapp.com/siswa`,
+        link: `https://crud-express-1.herokuapp.com/siswa`,
         tags: [`JavaScript`, `express js`]
       },
       {
