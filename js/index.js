@@ -110,7 +110,7 @@
   /* Footer Section */
   const year = new Date().getFullYear();
   let footerCopyright = document.createElement("p");
-  footerCopyright.textContent = `Handmade by me © louisiaegerv ${year}.`;
+  footerCopyright.textContent = `Handmade by © louisiaegerv ${year}. Thanks for Him.`;
   footerSection.firstElementChild.appendChild(footerCopyright);
   social.forEach(socialAccount => {
     const socialLink = document.createElement("a");
