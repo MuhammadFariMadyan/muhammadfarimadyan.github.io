@@ -39,7 +39,7 @@ const data = {
     img: `img/desk4.jpg`
   },
   about: {
-    img: `img/me.jpg`,
+    img: `img/me.jpeg`,
     aboutText: `Passionate programmer pursuing a career path in web/app development and mixed reality technologies. Always learn new things with strong passion for research and development.`
   },
   portfolio: {
