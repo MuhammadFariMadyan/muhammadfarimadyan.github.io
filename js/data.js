@@ -22,11 +22,11 @@ const data = {
         url: `#contact`
       },
       {
-        name: `My CV`,
+        name: `Download My CV`,
         url: `./portofolio_fari.pdf`
       },
       {
-        name: `Portofolio Projects`,
+        name: `My Projects`,
         url: `./portofolio_projects.docx`
       }
     ]
