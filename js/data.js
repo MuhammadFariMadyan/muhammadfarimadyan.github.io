@@ -22,7 +22,7 @@ const data = {
         url: `#contact`
       },
       {
-        name: `Download My CV`,
+        name: `My CV`,
         url: `./portofolio_fari.pdf`
       },
       {
